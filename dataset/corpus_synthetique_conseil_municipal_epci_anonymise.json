@@ -1,0 +1,72 @@
+{
+  "dataset_id": "lescribeaudio-cgct-synthetic-eval-2026-v1",
+  "license": "CC-BY-4.0",
+  "anonymization_notice": "Corpus 100 % synthétique construit exclusivement avec des patronymes génériques fictifs (M. Martin, Mme Dubois, M. Bernard, Mme Moreau, M. Lefèvre) et une commune fictive (Saint-Clair-sur-Val). Aucune donnée issue d'une collectivité cliente réelle n'est utilisée.",
+  "evaluation_protocol": {
+    "purpose": "Évaluer la fidélité des moteurs de transcription automatique et des workflows de rédaction de PV face aux exigences légales de l'article L. 2121-15 du CGCT (quorum, secrétaire de séance, déport pour conflit d'intérêts art. L. 2131-11, amendements chiffrés, scrutin public nominatif art. L. 2121-21 et questions orales art. L. 2121-19).",
+    "scoring_dimensions": [
+      "Exactitude des montants budgétaires HT/TTC, chapitres M57 et numéros de délibérations",
+      "Attribution exacte des prises de parole (diarisation multi-locuteurs) lors des échanges contradictoires",
+      "Traçabilité horodatée du départ physique d'un élu intéressé (art. L. 2131-11 CGCT)",
+      "Exactitude du décompte des voix (présents, procurations, Pour, Contre, Abstentions)"
+    ]
+  },
+  "synthetic_excerpts": [
+    {
+      "excerpt_id": "CM_SYNTH_01_OUVERTURE_QUORUM",
+      "instance": "Conseil Municipal de Saint-Clair-sur-Val (commune fictive — nomenclature M57)",
+      "cgct_articles_tested": ["L. 2121-15", "L. 2121-17"],
+      "expected_mandatory_mentions": {
+        "conseillers_en_exercice": 27,
+        "presents": 22,
+        "pouvoirs": 4,
+        "absents_excuses_sans_pouvoir": 1,
+        "quorum_atteint": true,
+        "secretaire_de_seance": "Mme Dubois"
+      },
+      "utterances": [
+        {
+          "timecode": "00:00:12",
+          "speaker_code": "M. Martin (Maire)",
+          "verbatim_reference": "Mesdames et Messieurs les conseillers, il est dix-neuf heures trente, le quorum étant largement atteint avec vingt-deux élus présents physiquement sur vingt-sept en exercice et quatre procurations régulièrement déposées, je déclare la séance du conseil municipal ouverte. Conformément à l'article L. 2121-15 du Code général des collectivités territoriales, je vous propose de désigner Madame Dubois en qualité de secrétaire de séance, assistée de notre Directrice Générale des Services à titre d'auxiliaire administrative. Y a-t-il des oppositions ou des abstentions ? Aucune, Madame Dubois est désignée à l'unanimité."
+        },
+        {
+          "timecode": "00:01:04",
+          "speaker_code": "Mme Dubois (Secrétaire de séance)",
+          "verbatim_reference": "Je vous remercie Monsieur le Maire. Je précise pour le procès-verbal que Monsieur Bernard a donné pouvoir à Madame Moreau, et que le procès-verbal de notre séance précédente a bien été transmis avec la note de synthèse cinq jours francs avant la présente réunion. S'il n'appelle pas d'observation rectificative, il est soumis à votre approbation."
+        }
+      ]
+    },
+    {
+      "excerpt_id": "CM_SYNTH_02_DEPORT_SUBVENTION_ET_VOTE",
+      "instance": "Conseil Communautaire — Communauté de Communes du Val Clair (EPCI fictif)",
+      "cgct_articles_tested": ["L. 5211-1", "L. 2131-11", "L. 2121-21"],
+      "expected_mandatory_mentions": {
+        "deliberation_ref": "DEL-2026-114",
+        "deport_elu_interesse": "M. Lefèvre (quitte physiquement la salle à 01:14:20 avant présentation et vote)",
+        "montant_subvention_eur": 18500,
+        "votants_apres_deport": 25,
+        "pour": 20,
+        "contre": 3,
+        "abstentions": 2
+      },
+      "utterances": [
+        {
+          "timecode": "01:14:12",
+          "speaker_code": "M. Martin (Président)",
+          "verbatim_reference": "Nous passons à la délibération numéro 2026-114 portant attribution d'une subvention d'équipement de dix-huit mille cinq cents euros au club omnisports intercommunal sur le chapitre 204 de la nomenclature M57. En application de l'article L. 2131-11 du CGCT, Monsieur Lefèvre, membre du bureau de ladite association, quitte physiquement la salle du conseil à vingt heures quarante-quatre et ne prend part ni à la présentation, ni aux débats, ni au vote."
+        },
+        {
+          "timecode": "01:15:08",
+          "speaker_code": "Mme Moreau (Opposition)",
+          "verbatim_reference": "Monsieur le Président, notre groupe salue le travail des bénévoles mais regrette l'absence d'une convention pluriannuelle d'objectifs assortie d'indicateurs d'ouverture scolaire. Pour cette raison, Monsieur Bernard et moi-même voterons contre, accompagnés d'un troisième vote contre par procuration."
+        },
+        {
+          "timecode": "01:16:02",
+          "speaker_code": "M. Martin (Président)",
+          "verbatim_reference": "Dont acte au procès-verbal. Je mets aux voix la délibération 2026-114 : qui est contre ? Trois voix contre. Qui s'abstient ? Deux abstentions. Qui vote pour ? Vingt voix pour sur vingt-cinq suffrages exprimés hors déport. La délibération est adoptée et Monsieur Lefèvre est invité à regagner la salle."
+        }
+      ]
+    }
+  ]
+}
