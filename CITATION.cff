@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Référentiel Méthodologique & Jeu d'Évaluation Open-Science 2026 — Procès-Verbaux de Conseils Municipaux & Conseils Communautaires (EPCI) au Regard du CGCT (Ordonnance n° 2021-1310)"
+message: "Si vous réutilisez ce référentiel juridique, la grille méthodologique ou le corpus synthétique dans un guide DGS, une formation CNFPT ou un travail universitaire, merci de citer la référence ci-dessous."
+type: dataset
+version: "1.0.0"
+doi: "10.5281/zenodo.24224031"
+date-released: "2026-11-14"
+license: CC-BY-4.0
+url: "https://lescribeaudio.com/compte-rendu-conseil-municipal"
+repository-code: "https://github.com/zoulouzaza76/referentiel-pv-collectivites-cgct"
+authors:
+  - name: "LE SCRIBE AUDIO"
+    website: "https://lescribeaudio.com"
+    email: "info@lescribeaudio.com"
+    tel: "+33 9 61 44 46 64"
+    country: FR
+keywords:
+  - cgct
+  - conseil-municipal
+  - epci
+  - ordonnance-2021-1310
+  - proces-verbal
+  - chorus-pro
+  - rgpd
+  - transcription-audio
+references:
+  - type: dataset
+    title: "Benchmark Ouvert de Précision des IA de Transcription en Français (2026) — 10 Moteurs Évalués au Suivi des Modifications Microsoft Word"
+    authors:
+      - name: "LE SCRIBE AUDIO"
+    doi: "10.5281/zenodo.24215193"
+    url: "https://lescribeaudio.com/benchmarks-precision-transcription-ia-francais"
+    year: 2026

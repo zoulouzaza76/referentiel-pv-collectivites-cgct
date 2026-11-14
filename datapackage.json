@@ -1,0 +1,62 @@
+{
+  "profile": "data-package",
+  "name": "referentiel-pv-collectivites-cgct",
+  "title": "Référentiel Méthodologique & Jeu d'Évaluation 2026 — Procès-Verbaux de Conseils Municipaux & Conseils Communautaires (EPCI) au Regard du CGCT (Ordonnance n° 2021-1310)",
+  "description": "Jeu de données ouvert (CC-BY-4.0) consolidant les règles du Code général des collectivités territoriales (CGCT, ordonnance n° 2021-1310 et décret n° 2021-1311 : art. L. 2121-15, L. 2121-25, R. 2121-9, L. 2121-18, L. 2121-21, L. 2131-11, L. 5211-1), de la facturation publique Chorus Pro (Code de la commande publique) et du RGPD (art. 5.1.e, 28, 32), accompagné d'une grille méthodologique d'évaluation des temps humains réels de rédaction (frappe manuelle 4 à 7 h/h vs pré-transcription IA 2 passes + réécoute intégrale 2 à 3 h/h divisant par 2 le temps de rédaction, ou relecture humaine à 60 € HT/h par deux transcripteurs successifs) et d'un corpus synthétique anonymisé (M. Martin, Mme Dubois, M. Bernard).",
+  "version": "1.0.0",
+  "created": "2026-11-10",
+  "homepage": "https://lescribeaudio.com/compte-rendu-conseil-municipal",
+  "keywords": [
+    "CGCT",
+    "ordonnance 2021-1310",
+    "procès-verbal conseil municipal",
+    "conseil communautaire EPCI",
+    "liste des délibérations",
+    "Chorus Pro",
+    "RGPD",
+    "transcription audio"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "LE SCRIBE AUDIO",
+      "role": "publisher",
+      "path": "https://lescribeaudio.com",
+      "email": "info@lescribeaudio.com"
+    }
+  ],
+  "resources": [
+    {
+      "name": "referentiel-juridique-pv-cgct-ordonnance-2021-1310",
+      "path": "dataset/referentiel_juridique_pv_cgct_ordonnance_2021_1310.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Référentiel juridique CGCT (Ordonnance n° 2021-1310) pour l'établissement et la publicité des PV de conseils municipaux et EPCI"
+    },
+    {
+      "name": "grille-evaluation-methodologique-pv-collectivites-2026",
+      "path": "dataset/grille_evaluation_methodologique_pv_collectivites_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Grille méthodologique d'évaluation des temps humains réels, de la conformité CGCT et des coûts Chorus Pro (2026)"
+    },
+    {
+      "name": "corpus-synthetique-conseil-municipal-epci-anonymise",
+      "path": "dataset/corpus_synthetique_conseil_municipal_epci_anonymise.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Corpus synthétique d'évaluation entièrement anonymisé (M. Martin, Mme Dubois, M. Bernard) — Délibérations municipales et communautaires"
+    }
+  ]
+}

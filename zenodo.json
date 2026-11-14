@@ -1,0 +1,56 @@
+{
+  "title": "Référentiel Méthodologique & Jeu d'Évaluation Open-Science 2026 — Procès-Verbaux de Conseils Municipaux & Conseils Communautaires (EPCI) au Regard du CGCT (Ordonnance n° 2021-1310)",
+  "description": "Jeu de données ouvert, grille méthodologique d'évaluation et corpus synthétique anonymisé (CC-BY-4.0) à destination des Directeurs Généraux des Services (DGS), secrétaires généraux de mairie, directions des assemblées (communes, EPCI, départements, régions), juristes en droit des collectivités territoriales et chercheurs en administration publique. Consolide : 1) les règles légales issues de la réforme de la publicité des actes locaux (ordonnance n° 2021-1310 et décret n° 2021-1311 du 7 octobre 2021, art. L. 2121-15, L. 2121-25, R. 2121-9, L. 2121-18, L. 2121-21, L. 2131-11 et L. 5211-1 du CGCT : suppression de l'ancien compte rendu sommaire sous 8 jours, liste des délibérations sous 7 jours francs, mentions obligatoires du procès-verbal arrêté à la séance suivante et publié sous 7 jours) ; 2) la grille d'évaluation des temps humains réels et modes d'achat public Chorus Pro (4 à 7 h de frappe manuelle au casque par heure de séance contre 2 à 3 h de réécoute intégrale sur fichier Word .docx 100 % modifiable après pré-transcription IA en 2 passes divisant par 2 le temps de rédaction, ou relecture humaine à 60 € HT/h par deux transcripteurs successifs ; stockage en France chez OVHcloud AES-256 et inférence Google Cloud Vertex AI en région Europe sans conservation ni entraînement sur les données) ; 3) un corpus synthétique d'évaluation entièrement anonymisé (M. Martin, Mme Dubois, M. Bernard).",
+  "upload_type": "dataset",
+  "publication_date": "2026-11-10",
+  "version": "1.0.0",
+  "language": "fra",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "LE SCRIBE AUDIO",
+      "affiliation": "LE SCRIBE AUDIO (France — RCS Rennes 890 049 927)"
+    }
+  ],
+  "keywords": [
+    "CGCT",
+    "procès-verbal conseil municipal",
+    "conseil communautaire EPCI",
+    "ordonnance 2021-1310",
+    "article L. 2121-15 CGCT",
+    "article L. 2121-25 CGCT",
+    "collectivités territoriales",
+    "Chorus Pro",
+    "RGPD",
+    "transcription audio"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://lescribeaudio.com/compte-rendu-conseil-municipal",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://lescribeaudio.com/transcription-conseil-communautaire-epci-departement",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://lescribeaudio.com/devis-chorus-pro",
+      "relation": "references",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://lescribeaudio.com/benchmarks-precision-transcription-ia-francais",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.24215193",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ]
+}
